@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raheemelassadi/todo-list.git"
@@ -17,12 +18,10 @@
     "url": "https://github.com/raheemelassadi/todo-list/issues"
   },
   "homepage": "https://github.com/raheemelassadi/todo-list#readme",
-  "dependencies": {
-    "webpack-cli": "^4.10.0"
-  },
   "devDependencies": {
     "sass": "^1.52.3",
     "sass-loader": "^13.0.0",
-    "webpack": "^5.73.0"
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
   }
 }
