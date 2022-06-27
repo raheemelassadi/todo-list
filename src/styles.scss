@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Yellowtail&display=swap');
+$greyColor: #E3E2DF;
+$darkRed: #9A1750;
+$pink: #E3AFBC;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: $greyColor;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: $greyColor;
+
+    #content {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+nav {
+        box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+
+}
+
+.sidebar {
+    background-color: $darkRed;
+    color: $greyColor;
+}
+
+#navTitle {
+    font-family: 'Yellowtail', cursive;
+    cursor: pointer;
+    user-select: none;
+    color: $darkRed;
+}
+
+#navText {
+    border: 2px solid $darkRed;
+    background-color: $greyColor;
+    color: $darkRed;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    transition: .1s ease-in-out;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:active {
+        transform: scale(.9);
+    }
+
+    &::before {
+        content: '+  ';
+    }
+}
+
+.gridContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.mainWindow {
+    background-color: $greyColor;
+}
