@@ -45,7 +45,7 @@ nav {
     color: $darkRed;
 }
 
-#navText {
+#navText, #modalSubmit {
     border: 2px solid $darkRed;
     background-color: $greyColor;
     color: $darkRed;
@@ -75,7 +75,6 @@ nav {
 
 .mainWindow {
     background-color: $greyColor;
-    color: blue;
 }
 
 .sidebar-items{
@@ -122,4 +121,10 @@ p {
 
 hr:not([size]) {
     height: 2px;
+}
+
+#modalLabel {
+    color: $darkRed;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }

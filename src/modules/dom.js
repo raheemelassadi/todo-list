@@ -1,13 +1,14 @@
-import { Tasks } from "./addTasks";
+// import { Tasks } from "./addTasks";
 
-const something = document.querySelector('.something')
+// const addProjects = document.querySelector(".projectAdder")
 
-const func = () => {
-    console.log(something.textContent)
-    console.log(nothing.textContent)
-}
+// const projectAdder = () => {
+//     addProjects.addEventListener('click', function(){
+        
+//     })
+// }
 
-export { func }
+// export { doSomething }
 
 
 
