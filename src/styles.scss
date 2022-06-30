@@ -75,6 +75,7 @@ nav {
 
 .mainWindow {
     background-color: $greyColor;
+    color: blue;
 }
 
 .sidebar-items{
@@ -117,4 +118,8 @@ p {
 
 .projectAdder {
     margin-left: 1rem;
+}
+
+hr:not([size]) {
+    height: 2px;
 }
