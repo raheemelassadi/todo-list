@@ -1,14 +1,17 @@
-// import { Tasks } from "./addTasks";
+import { Folder, btnLogic } from "./utils";
 
-// const addProjects = document.querySelector(".projectAdder")
+const sumbitProject = () => {
+    const name = document.querySelector("#name")
+    const form = document.querySelector('#myModal')
+    const submitBtn = document.querySelector('#modalSubmit')
 
-// const projectAdder = () => {
-//     addProjects.addEventListener('click', function(){
-        
-//     })
-// }
+    submitBtn.addEventListener('click', function(){
+        const newProject = new Folder()
+        name.value = ""
+    })
+}
 
-// export { doSomething }
+export { sumbitProject }
 
 
 

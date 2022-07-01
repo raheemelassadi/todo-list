@@ -1,7 +1,14 @@
 import "./styles.scss"
-// import { doSomething } from "./modules/dom"
+import { sumbitProject } from "./modules/dom"
+import closeBtn from "./modules/utils"
 
-// doSomething()
+sumbitProject()
+closeBtn()
+
+
+
+
+
 
 
 
